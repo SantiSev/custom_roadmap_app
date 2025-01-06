@@ -24,9 +24,6 @@ const RoadMapPage: React.FC = () => {
   );
   return (
     <div className="h-screen w-screen bg-slate-600">
-      <h1 className="text-white font-satoshi text-3xl absolute top-0 left-1/2 transform -translate-x-1/2 mt-4">
-        Road Map Page
-      </h1>
       <div style={{ width: "100vw", height: "100vh" }}>
       <ReactFlow
         nodes={nodes}
